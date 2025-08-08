@@ -17,7 +17,7 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Typescript-1a67f3?style=for-the-badge&logo=react&logoColor=white" alt="Typescript" />
+  <img src="https://img.shields.io/badge/Typescript-1a67f3?style=for-the-badge&logo=react&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-23272F?style=for-the-badge&logo=react&logoColor=white" alt="React" />
 </p>
 
@@ -73,7 +73,7 @@ Technical highlights:
 ## Techstack
 
 - [Remix](https://remix.run) – framework
-- [Typescript](https://www.typescriptlang.org/) – language
+- [TypeScript](https://www.typescriptlang.org/) – language
 - [Tailwind](https://tailwindcss.com) – styling
 - [Radix UI](https://radix-ui.com) - behavior
 - [Supabase](https://supabase.com) - database
@@ -173,7 +173,7 @@ $ cp ./.env.example ./.env
 - `UPSTASH_REDIS_REST_URL=[UPSTASH_REDIS_REST_URL]`
 - `UPSTASH_REDIS_REST_TOKEN=[UPSTASH_REDIS_REST_TOKEN]`
 
-3. Navigate to the project you created in [https://cloud.trigger.dev/](Trigger.dev) and copy the following from the `Environments & API Keys` section:
+3. Navigate to the project you created in [Trigger.dev](https://cloud.trigger.dev) and copy the following from the `Environments & API Keys` section:
 
 - `TRIGGER_PUBLIC_API_KEY=[Public 'dev' API Key, starting 'pk_dev*']`
 - `TRIGGER_API_KEY=[Server 'dev' API Key, starting 'tr_dev*']`
@@ -205,7 +205,7 @@ $ npm run dev:mes        # npm run dev in all apps & packages
 
 You can now sign in with:
 
-username: <your-email@address.com>
+username: <user@example.com>
 password: carbon
 
 After installation you should be able run the apps locally.
@@ -251,7 +251,7 @@ There are two ways to use the API:
 
 1. From another codebase using a supabase client library:
 
-- [Javascript](https://supabase.com/docs/reference/javascript/introduction)
+- [JavaScript](https://supabase.com/docs/reference/javascript/introduction)
 - [Flutter](https://supabase.com/docs/reference/dart/introduction)
 - [Python](https://supabase.com/docs/reference/python/introduction)
 - [C#](https://supabase.com/docs/reference/csharp/introduction)
